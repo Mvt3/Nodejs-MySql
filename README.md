@@ -11,7 +11,7 @@ router.get("api/employees", getEmployees);  GET ALL EMPLOYEES
 
 router.get("api/employees/:id", getEmployee); GET 1 EMPLOYEE BY ID
 
-router.post("api/employees", createEmployees); DONT WORK 
+router.post("api/employees", createEmployees); NOT WORKING
 
 router.patch("api/employees/:id", updateEmployees); UPDATE ONE PARAMETER. EXAMPLE {"name":"newName", "salary":newSalary}
 
